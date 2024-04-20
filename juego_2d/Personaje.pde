@@ -5,11 +5,11 @@ class Personaje{
   
   // CONSTRUCTOR 
   public Personaje(){
-    imagen = loadImage("personaje.png");
+    imagen = loadImage("homerox.png");
   }
   
   public void dibujar(){
-
+    imageMode(CENTER);
     image(imagen,posicion.x,posicion.y,100,100);
   }
   /**
